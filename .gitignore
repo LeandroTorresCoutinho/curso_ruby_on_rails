@@ -47,4 +47,18 @@ build-iPhoneSimulator/
 # .ruby-gemset
 
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
+<<<<<<< HEAD
 .rvmrc
+=======
+.rvmrc
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles.
+/log/*
+!/log/.keep
+
+
+>>>>>>> ff1d80e37b874f1f84cea09ee0270a654092b4e7
