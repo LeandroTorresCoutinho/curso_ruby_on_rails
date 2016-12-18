@@ -7272,3 +7272,1346 @@ Processing by ProdutosController#index as HTML
   Rendered produtos/_produto.html.erb (1.0ms)
   Rendered produtos/index.html.erb within layouts/application (30.0ms)
 Completed 200 OK in 260ms (Views: 258.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-18 19:04:13 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProdutosController#index as HTML
+  [1m[35mProduto Load (0.0ms)[0m  SELECT "produtos".* FROM "produtos"  ORDER BY "produtos"."nome" ASC
+  Rendered produtos/_produto.html.erb (7.0ms)
+  [1m[36mProduto Load (0.0ms)[0m  [1mSELECT  "produtos".* FROM "produtos"  ORDER BY "produtos"."preco" ASC LIMIT 2[0m
+  Rendered produtos/_produto.html.erb (1.0ms)
+  Rendered produtos/index.html.erb within layouts/application (48.0ms)
+Completed 200 OK in 942ms (Views: 917.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for ::1 at 2016-12-18 19:04:15 -0200
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for ::1 at 2016-12-18 19:04:15 -0200
+
+
+Started GET "/assets/scaffold.self-83b741db49389dc7cfdf85bf7537a0219cce48e085c4116afc83d55c9af47c78.css?body=1" for ::1 at 2016-12-18 19:04:15 -0200
+
+
+Started GET "/assets/produtos.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for ::1 at 2016-12-18 19:04:15 -0200
+
+
+Started GET "/assets/departamentos.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for ::1 at 2016-12-18 19:04:15 -0200
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for ::1 at 2016-12-18 19:04:15 -0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-12-18 19:04:15 -0200
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-12-18 19:04:15 -0200
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-12-18 19:04:15 -0200
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-12-18 19:04:15 -0200
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-12-18 19:04:15 -0200
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-12-18 19:04:15 -0200
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-12-18 19:04:15 -0200
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-12-18 19:04:15 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-12-18 19:04:15 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-12-18 19:04:15 -0200
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-12-18 19:04:15 -0200
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-12-18 19:04:15 -0200
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-12-18 19:04:15 -0200
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-12-18 19:04:15 -0200
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-12-18 19:04:15 -0200
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-12-18 19:04:15 -0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-12-18 19:04:15 -0200
+
+
+Started GET "/assets/bootstrap.self-5afe7e91ef3675e2be97b8d060a7f3755d6dbc615b76df476df55143da70679f.js?body=1" for ::1 at 2016-12-18 19:04:15 -0200
+
+
+Started GET "/assets/departamentos.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-12-18 19:04:15 -0200
+
+
+Started GET "/assets/produtos.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-12-18 19:04:15 -0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-12-18 19:04:16 -0200
+
+
+Started POST "/produtos/3" for ::1 at 2016-12-18 19:04:19 -0200
+
+ActionController::RoutingError (No route matches [POST] "/produtos/3"):
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (20.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (738.5ms)
+
+
+Started GET "/" for ::1 at 2016-12-18 19:04:48 -0200
+Processing by ProdutosController#index as HTML
+  [1m[35mProduto Load (0.0ms)[0m  SELECT "produtos".* FROM "produtos"  ORDER BY "produtos"."nome" ASC
+  Rendered produtos/_produto.html.erb (4.0ms)
+  [1m[36mProduto Load (1.0ms)[0m  [1mSELECT  "produtos".* FROM "produtos"  ORDER BY "produtos"."preco" ASC LIMIT 2[0m
+  Rendered produtos/_produto.html.erb (1.0ms)
+  Rendered produtos/index.html.erb within layouts/application (34.0ms)
+Completed 200 OK in 227ms (Views: 224.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for ::1 at 2016-12-18 19:04:49 -0200
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for ::1 at 2016-12-18 19:04:49 -0200
+
+
+Started GET "/assets/departamentos.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for ::1 at 2016-12-18 19:04:49 -0200
+
+
+Started GET "/assets/produtos.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for ::1 at 2016-12-18 19:04:49 -0200
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for ::1 at 2016-12-18 19:04:49 -0200
+
+
+Started GET "/assets/scaffold.self-83b741db49389dc7cfdf85bf7537a0219cce48e085c4116afc83d55c9af47c78.css?body=1" for ::1 at 2016-12-18 19:04:49 -0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-12-18 19:04:49 -0200
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-12-18 19:04:49 -0200
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-12-18 19:04:49 -0200
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-12-18 19:04:49 -0200
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-12-18 19:04:49 -0200
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-12-18 19:04:49 -0200
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-12-18 19:04:49 -0200
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-12-18 19:04:49 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-12-18 19:04:49 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-12-18 19:04:49 -0200
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-12-18 19:04:49 -0200
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-12-18 19:04:49 -0200
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-12-18 19:04:49 -0200
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-12-18 19:04:49 -0200
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-12-18 19:04:49 -0200
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-12-18 19:04:49 -0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-12-18 19:04:49 -0200
+
+
+Started GET "/assets/bootstrap.self-5afe7e91ef3675e2be97b8d060a7f3755d6dbc615b76df476df55143da70679f.js?body=1" for ::1 at 2016-12-18 19:04:49 -0200
+
+
+Started GET "/assets/departamentos.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-12-18 19:04:50 -0200
+
+
+Started GET "/assets/produtos.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-12-18 19:04:50 -0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-12-18 19:04:50 -0200
+
+
+Started GET "/produtos/3" for ::1 at 2016-12-18 19:04:55 -0200
+
+ActionController::RoutingError (No route matches [GET] "/produtos/3"):
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (534.4ms)
+
+
+Started GET "/produtos/3" for ::1 at 2016-12-18 19:06:57 -0200
+
+ActionController::RoutingError (No route matches [GET] "/produtos/3"):
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (497.4ms)
+
+
+Started GET "/" for ::1 at 2016-12-18 19:07:24 -0200
+Processing by ProdutosController#index as HTML
+  [1m[35mProduto Load (0.0ms)[0m  SELECT "produtos".* FROM "produtos"  ORDER BY "produtos"."nome" ASC
+  Rendered produtos/_produto.html.erb (3.0ms)
+  [1m[36mProduto Load (0.0ms)[0m  [1mSELECT  "produtos".* FROM "produtos"  ORDER BY "produtos"."preco" ASC LIMIT 2[0m
+  Rendered produtos/_produto.html.erb (0.0ms)
+  Rendered produtos/index.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 176ms (Views: 171.7ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for ::1 at 2016-12-18 19:07:24 -0200
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for ::1 at 2016-12-18 19:07:24 -0200
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for ::1 at 2016-12-18 19:07:24 -0200
+
+
+Started GET "/assets/produtos.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for ::1 at 2016-12-18 19:07:24 -0200
+
+
+Started GET "/assets/scaffold.self-83b741db49389dc7cfdf85bf7537a0219cce48e085c4116afc83d55c9af47c78.css?body=1" for ::1 at 2016-12-18 19:07:24 -0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-12-18 19:07:24 -0200
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-12-18 19:07:24 -0200
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-12-18 19:07:24 -0200
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-12-18 19:07:24 -0200
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-12-18 19:07:24 -0200
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-12-18 19:07:24 -0200
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-12-18 19:07:24 -0200
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-12-18 19:07:24 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-12-18 19:07:24 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-12-18 19:07:24 -0200
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-12-18 19:07:24 -0200
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-12-18 19:07:24 -0200
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-12-18 19:07:25 -0200
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-12-18 19:07:25 -0200
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-12-18 19:07:25 -0200
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-12-18 19:07:25 -0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-12-18 19:07:25 -0200
+
+
+Started GET "/assets/bootstrap.self-5afe7e91ef3675e2be97b8d060a7f3755d6dbc615b76df476df55143da70679f.js?body=1" for ::1 at 2016-12-18 19:07:25 -0200
+
+
+Started GET "/assets/departamentos.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-12-18 19:07:25 -0200
+
+
+Started GET "/assets/produtos.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-12-18 19:07:25 -0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-12-18 19:07:25 -0200
+
+
+Started GET "/assets/departamentos.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for ::1 at 2016-12-18 19:07:25 -0200
+
+
+Started GET "/produtos/2/edit" for ::1 at 2016-12-18 19:07:26 -0200
+
+AbstractController::ActionNotFound (The action 'edit' could not be found for ProdutosController):
+  actionpack (4.2.5.1) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.5.1) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.5.1) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.5.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.5.1) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.5.1) lib/action_dispatch/routing/route_set.rb:74:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.5.1) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.5.1) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5.1) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5.1) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5.1) lib/action_dispatch/routing/route_set.rb:815:in `call'
+  rack (1.6.5) lib/rack/etag.rb:24:in `call'
+  rack (1.6.5) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.5) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5.1) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5.1) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5.1) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (1.0ms)
+
+
+Started GET "/produtos/2/edit" for ::1 at 2016-12-18 19:09:57 -0200
+Processing by ProdutosController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mProduto Load (0.0ms)[0m  SELECT  "produtos".* FROM "produtos" WHERE "produtos"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mDepartamento Load (0.0ms)[0m  [1mSELECT "departamentos".* FROM "departamentos"[0m
+  Rendered produtos/new.html.erb within layouts/application (368.3ms)
+Completed 200 OK in 551ms (Views: 526.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/produtos/24/edit" for ::1 at 2016-12-18 19:10:21 -0200
+Processing by ProdutosController#edit as HTML
+  Parameters: {"id"=>"24"}
+  [1m[35mProduto Load (0.0ms)[0m  SELECT  "produtos".* FROM "produtos" WHERE "produtos"."id" = ? LIMIT 1  [["id", 24]]
+Completed 404 Not Found in 4ms (ActiveRecord: 0.0ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Produto with 'id'=24):
+  app/controllers/produtos_controller.rb:25:in `edit'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (394.3ms)
+
+
+Started GET "/produtos/28/edit" for ::1 at 2016-12-18 19:10:27 -0200
+Processing by ProdutosController#edit as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mProduto Load (0.0ms)[0m  [1mSELECT  "produtos".* FROM "produtos" WHERE "produtos"."id" = ? LIMIT 1[0m  [["id", 28]]
+Completed 404 Not Found in 4ms (ActiveRecord: 0.0ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Produto with 'id'=28):
+  app/controllers/produtos_controller.rb:25:in `edit'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (371.3ms)
+  [1m[36mProduto Load (0.0ms)[0m  [1mSELECT  "produtos".* FROM "produtos"  ORDER BY "produtos"."id" DESC LIMIT 1[0m
+
+
+Started GET "/produtos/14/edit" for ::1 at 2016-12-18 19:11:06 -0200
+Processing by ProdutosController#edit as HTML
+  Parameters: {"id"=>"14"}
+  [1m[35mProduto Load (0.0ms)[0m  SELECT  "produtos".* FROM "produtos" WHERE "produtos"."id" = ? LIMIT 1  [["id", 14]]
+  [1m[36mDepartamento Load (1.0ms)[0m  [1mSELECT "departamentos".* FROM "departamentos"[0m
+  Rendered produtos/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 159ms (Views: 154.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/produtos/14/edit" for ::1 at 2016-12-18 19:16:07 -0200
+Processing by ProdutosController#edit as HTML
+  Parameters: {"id"=>"14"}
+  [1m[35mProduto Load (0.0ms)[0m  SELECT  "produtos".* FROM "produtos" WHERE "produtos"."id" = ? LIMIT 1  [["id", 14]]
+  [1m[36mDepartamento Load (0.0ms)[0m  [1mSELECT "departamentos".* FROM "departamentos"[0m
+  Rendered produtos/new.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 242ms (Views: 222.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-12-18 19:16:07 -0200
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-12-18 19:16:07 -0200
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-12-18 19:16:07 -0200
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-12-18 19:16:07 -0200
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-12-18 19:16:07 -0200
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-12-18 19:16:07 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-12-18 19:16:07 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-12-18 19:16:07 -0200
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-12-18 19:16:08 -0200
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-12-18 19:16:08 -0200
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-12-18 19:16:08 -0200
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-12-18 19:16:08 -0200
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-12-18 19:16:08 -0200
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-12-18 19:16:08 -0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-12-18 19:16:08 -0200
+
+
+Started GET "/assets/bootstrap.self-5afe7e91ef3675e2be97b8d060a7f3755d6dbc615b76df476df55143da70679f.js?body=1" for ::1 at 2016-12-18 19:16:08 -0200
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-12-18 19:16:08 -0200
+
+
+Started GET "/assets/produtos.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-12-18 19:16:08 -0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-12-18 19:16:08 -0200
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for ::1 at 2016-12-18 19:16:08 -0200
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for ::1 at 2016-12-18 19:16:08 -0200
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for ::1 at 2016-12-18 19:16:08 -0200
+
+
+Started GET "/assets/departamentos.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for ::1 at 2016-12-18 19:16:08 -0200
+
+
+Started GET "/assets/produtos.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for ::1 at 2016-12-18 19:16:08 -0200
+
+
+Started GET "/assets/scaffold.self-83b741db49389dc7cfdf85bf7537a0219cce48e085c4116afc83d55c9af47c78.css?body=1" for ::1 at 2016-12-18 19:16:08 -0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-12-18 19:16:08 -0200
+
+
+Started GET "/assets/departamentos.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-12-18 19:16:08 -0200
+
+
+Started PATCH "/produtos/14" for ::1 at 2016-12-18 19:16:24 -0200
+Processing by ProdutosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2AZSNDohQZeGP+HcVVKacL4zPSj4QM/8wJ6Hq9snmYX2IIFGqR56DnO0ERiCLHUXY2YcMMw2Hpf9Og02KgaKlg==", "produto"=>{"nome"=>"casaquinho muito formal preto", "descricao"=>"casaco preto muito formal", "departamento_id"=>"2", "quantidade"=>"3", "preco"=>"32"}, "commit"=>"Criar o produto", "id"=>"14"}
+  [1m[35mProduto Load (0.0ms)[0m  SELECT  "produtos".* FROM "produtos" WHERE "produtos"."id" = ? LIMIT 1  [["id", 14]]
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `update' for nil:NilClass):
+  app/controllers/produtos_controller.rb:28:in `update'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (427.3ms)
+
+
+Started PATCH "/produtos/14" for ::1 at 2016-12-18 19:16:36 -0200
+Processing by ProdutosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2AZSNDohQZeGP+HcVVKacL4zPSj4QM/8wJ6Hq9snmYX2IIFGqR56DnO0ERiCLHUXY2YcMMw2Hpf9Og02KgaKlg==", "produto"=>{"nome"=>"casaquinho muito formal preto", "descricao"=>"casaco preto muito formal", "departamento_id"=>"2", "quantidade"=>"3", "preco"=>"32"}, "commit"=>"Criar o produto", "id"=>"14"}
+  [1m[36mProduto Load (1.0ms)[0m  [1mSELECT  "produtos".* FROM "produtos" WHERE "produtos"."id" = ? LIMIT 1[0m  [["id", 14]]
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 2.0ms)
+
+NoMethodError (undefined method `update' for nil:NilClass):
+  app/controllers/produtos_controller.rb:28:in `update'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (438.3ms)
+
+
+Started PATCH "/produtos/14" for ::1 at 2016-12-18 19:16:57 -0200
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by ProdutosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2AZSNDohQZeGP+HcVVKacL4zPSj4QM/8wJ6Hq9snmYX2IIFGqR56DnO0ERiCLHUXY2YcMMw2Hpf9Og02KgaKlg==", "produto"=>{"nome"=>"casaquinho muito formal preto", "descricao"=>"casaco preto muito formal", "departamento_id"=>"2", "quantidade"=>"3", "preco"=>"32"}, "commit"=>"Criar o produto", "id"=>"14"}
+  [1m[36mProduto Load (1.0ms)[0m  [1mSELECT  "produtos".* FROM "produtos" WHERE "produtos"."id" = ? LIMIT 1[0m  [["id", 14]]
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 1.0ms)
+
+NoMethodError (undefined method `update' for nil:NilClass):
+  app/controllers/produtos_controller.rb:28:in `update'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (391.3ms)
+
+
+Started PATCH "/produtos/14" for ::1 at 2016-12-18 19:22:14 -0200
+Processing by ProdutosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2AZSNDohQZeGP+HcVVKacL4zPSj4QM/8wJ6Hq9snmYX2IIFGqR56DnO0ERiCLHUXY2YcMMw2Hpf9Og02KgaKlg==", "produto"=>{"nome"=>"casaquinho muito formal preto", "descricao"=>"casaco preto muito formal", "departamento_id"=>"2", "quantidade"=>"3", "preco"=>"32"}, "commit"=>"Criar o produto", "id"=>"14"}
+  [1m[35mProduto Load (0.0ms)[0m  SELECT  "produtos".* FROM "produtos" WHERE "produtos"."id" = ? LIMIT 1  [["id", 14]]
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `update' for nil:NilClass):
+  app/controllers/produtos_controller.rb:28:in `update'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (375.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-18 19:24:36 -0200
+Processing by ProdutosController#index as HTML
+  [1m[36mProduto Load (1.0ms)[0m  [1mSELECT "produtos".* FROM "produtos"  ORDER BY "produtos"."nome" ASC[0m
+  Rendered produtos/_produto.html.erb (4.0ms)
+  [1m[35mProduto Load (0.0ms)[0m  SELECT  "produtos".* FROM "produtos"  ORDER BY "produtos"."preco" ASC LIMIT 2
+  Rendered produtos/_produto.html.erb (1.0ms)
+  Rendered produtos/index.html.erb within layouts/application (30.0ms)
+Completed 200 OK in 193ms (Views: 185.5ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/produtos/new" for ::1 at 2016-12-18 19:24:40 -0200
+Processing by ProdutosController#new as HTML
+  [1m[36mDepartamento Load (0.0ms)[0m  [1mSELECT "departamentos".* FROM "departamentos"[0m
+  Rendered produtos/new.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 178ms (Views: 175.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/produtos/new" for ::1 at 2016-12-18 19:24:49 -0200
+Processing by ProdutosController#new as HTML
+  [1m[35mDepartamento Load (0.0ms)[0m  SELECT "departamentos".* FROM "departamentos"
+  Rendered produtos/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 204ms (Views: 203.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/produtos" for ::1 at 2016-12-18 19:24:51 -0200
+Processing by ProdutosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/GXwhm/2+026hq4kFlKGQucpWOOa3yBspba9GJ8+rBPSQyP0/MnA1E8NXuDBLGklOnx5+66p8QeYEjeFbh+/AA==", "produto"=>{"nome"=>"", "descricao"=>"", "departamento_id"=>"1", "quantidade"=>"", "preco"=>""}, "commit"=>"Criar o produto"}
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36mDepartamento Load (1.0ms)[0m  [1mSELECT "departamentos".* FROM "departamentos"[0m
+  Rendered produtos/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 179ms (Views: 172.4ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/produtos" for ::1 at 2016-12-18 19:26:04 -0200
+
+ActionController::RoutingError (No route matches [GET] "/produtos"):
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (625.4ms)
+
+
+Started GET "/produtos/new" for ::1 at 2016-12-18 19:26:09 -0200
+Processing by ProdutosController#new as HTML
+  [1m[35mDepartamento Load (0.0ms)[0m  SELECT "departamentos".* FROM "departamentos"
+  Rendered produtos/new.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 164ms (Views: 154.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/produtos/new" for ::1 at 2016-12-18 19:28:47 -0200
+Processing by ProdutosController#new as HTML
+  [1m[36mDepartamento Load (0.0ms)[0m  [1mSELECT "departamentos".* FROM "departamentos"[0m
+  Rendered produtos/new.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 195ms (Views: 178.5ms | ActiveRecord: 1.0ms)
+
+
+Started DELETE "/produtos/13" for ::1 at 2016-12-18 19:28:54 -0200
+Processing by ProdutosController#destroy as HTML
+  Parameters: {"authenticity_token"=>"M5KTZnaGm7I4HkuIXLiimqbll84Eutvk6gcv/T/6rYUdtEAU5bmgK82Vu0yLxk39e7C21jDMCo/Xo6Vgztu+lg==", "id"=>"13"}
+  [1m[35mProduto Load (1.0ms)[0m  SELECT  "produtos".* FROM "produtos" WHERE "produtos"."id" = ? LIMIT 1  [["id", 13]]
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 1.0ms)
+
+NoMethodError (undefined method `destroy' for nil:NilClass):
+  app/controllers/produtos_controller.rb:42:in `destroy'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (464.3ms)
+
+
+Started GET "/produtos/new" for ::1 at 2016-12-18 19:30:37 -0200
+Processing by ProdutosController#new as HTML
+  [1m[36mDepartamento Load (0.0ms)[0m  [1mSELECT "departamentos".* FROM "departamentos"[0m
+  Rendered produtos/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 184ms (Views: 172.5ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/produtos" for ::1 at 2016-12-18 19:31:07 -0200
+Processing by ProdutosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"y60b2nwdOJNygjvEPrGTpubmbpSZgr19XFa28Siu+77li8io7yIDCocJywDpz3zBO7NPjK30bBZh8jxs2Y/orQ==", "produto"=>{"nome"=>"camisa xadrez muito bonita", "descricao"=>"camisa bonitona xadrez", "departamento_id"=>"3", "quantidade"=>"23", "preco"=>"12"}, "commit"=>"Criar o produto"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "produtos" ("nome", "preco", "descricao", "quantidade", "departamento_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["nome", "camisa xadrez muito bonita"], ["preco", 12.0], ["descricao", "camisa bonitona xadrez"], ["quantidade", 23], ["departamento_id", 3], ["created_at", "2016-12-18 21:31:07.073691"], ["updated_at", "2016-12-18 21:31:07.073691"]]
+  [1m[35m (8.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 19ms (ActiveRecord: 9.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-18 19:31:07 -0200
+Processing by ProdutosController#index as HTML
+  [1m[36mProduto Load (0.0ms)[0m  [1mSELECT "produtos".* FROM "produtos"  ORDER BY "produtos"."nome" ASC[0m
+  Rendered produtos/_produto.html.erb (5.0ms)
+  [1m[35mProduto Load (1.0ms)[0m  SELECT  "produtos".* FROM "produtos"  ORDER BY "produtos"."preco" ASC LIMIT 2
+  Rendered produtos/_produto.html.erb (0.0ms)
+  Rendered produtos/index.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 201ms (Views: 198.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/produtos/15/edit" for ::1 at 2016-12-18 19:31:19 -0200
+Processing by ProdutosController#edit as HTML
+  Parameters: {"id"=>"15"}
+  [1m[36mProduto Load (0.0ms)[0m  [1mSELECT  "produtos".* FROM "produtos" WHERE "produtos"."id" = ? LIMIT 1[0m  [["id", 15]]
+  Rendered produtos/new.html.erb within layouts/application (8.0ms)
+Completed 500 Internal Server Error in 43ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    1: <% @produto.errors.full_messages.each do |message| %>
+    2: 	<div class="alert alert-danger" role="alert"><%=message%></div>
+    3: <% end %>	
+    4: 
+  app/views/produtos/new.html.erb:1:in `_app_views_produtos_new_html_erb__879288562_78983076'
+  app/controllers/produtos_controller.rb:55:in `renderiza_new'
+  app/controllers/produtos_controller.rb:37:in `edit'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (427.3ms)
+
+
+Started GET "/" for ::1 at 2016-12-18 19:35:46 -0200
+Processing by ProdutosController#index as HTML
+  [1m[35mProduto Load (1.0ms)[0m  SELECT "produtos".* FROM "produtos"  ORDER BY "produtos"."nome" ASC
+  Rendered produtos/_produto.html.erb (5.0ms)
+  [1m[36mProduto Load (0.0ms)[0m  [1mSELECT  "produtos".* FROM "produtos"  ORDER BY "produtos"."preco" ASC LIMIT 2[0m
+  Rendered produtos/_produto.html.erb (1.0ms)
+  Rendered produtos/index.html.erb within layouts/application (36.0ms)
+Completed 200 OK in 238ms (Views: 231.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-12-18 19:35:46 -0200
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-12-18 19:35:46 -0200
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-12-18 19:35:46 -0200
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-12-18 19:35:46 -0200
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-12-18 19:35:46 -0200
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-12-18 19:35:46 -0200
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-12-18 19:35:46 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-12-18 19:35:46 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-12-18 19:35:46 -0200
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-12-18 19:35:46 -0200
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-12-18 19:35:46 -0200
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-12-18 19:35:46 -0200
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-12-18 19:35:46 -0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-12-18 19:35:47 -0200
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-12-18 19:35:47 -0200
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-12-18 19:35:47 -0200
+
+
+Started GET "/assets/bootstrap.self-5afe7e91ef3675e2be97b8d060a7f3755d6dbc615b76df476df55143da70679f.js?body=1" for ::1 at 2016-12-18 19:35:47 -0200
+
+
+Started GET "/assets/departamentos.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-12-18 19:35:47 -0200
+
+
+Started GET "/assets/produtos.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-12-18 19:35:47 -0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-12-18 19:35:47 -0200
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for ::1 at 2016-12-18 19:35:47 -0200
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for ::1 at 2016-12-18 19:35:47 -0200
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for ::1 at 2016-12-18 19:35:47 -0200
+
+
+Started GET "/assets/departamentos.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for ::1 at 2016-12-18 19:35:47 -0200
+
+
+Started GET "/assets/produtos.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for ::1 at 2016-12-18 19:35:47 -0200
+
+
+Started GET "/assets/scaffold.self-83b741db49389dc7cfdf85bf7537a0219cce48e085c4116afc83d55c9af47c78.css?body=1" for ::1 at 2016-12-18 19:35:47 -0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-12-18 19:35:47 -0200
+
+
+Started GET "/produtos/new" for ::1 at 2016-12-18 19:35:50 -0200
+Processing by ProdutosController#new as HTML
+  [1m[35mDepartamento Load (0.0ms)[0m  SELECT "departamentos".* FROM "departamentos"
+  Rendered produtos/new.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 224ms (Views: 219.9ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/produtos" for ::1 at 2016-12-18 19:36:08 -0200
+Processing by ProdutosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TWlVrUtp2kpJiWMV4LHk1pLQctLjlHHItC3LH3sp4KVjT4bf2Fbh07wCk9E3zwuxT4VTytfioKOJiUGCigjztg==", "produto"=>{"nome"=>"blusa jeans xadrez", "descricao"=>"blusa jeans xadrez", "departamento_id"=>"3", "quantidade"=>"45", "preco"=>"32"}, "commit"=>"Criar o produto"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "produtos" ("nome", "preco", "descricao", "quantidade", "departamento_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["nome", "blusa jeans xadrez"], ["preco", 32.0], ["descricao", "blusa jeans xadrez"], ["quantidade", 45], ["departamento_id", 3], ["created_at", "2016-12-18 21:36:08.740946"], ["updated_at", "2016-12-18 21:36:08.740946"]]
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 16ms (ActiveRecord: 7.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-18 19:36:08 -0200
+Processing by ProdutosController#index as HTML
+  [1m[35mProduto Load (1.0ms)[0m  SELECT "produtos".* FROM "produtos"  ORDER BY "produtos"."nome" ASC
+  Rendered produtos/_produto.html.erb (4.0ms)
+  [1m[36mProduto Load (0.0ms)[0m  [1mSELECT  "produtos".* FROM "produtos"  ORDER BY "produtos"."preco" ASC LIMIT 2[0m
+  Rendered produtos/_produto.html.erb (0.0ms)
+  Rendered produtos/index.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 169ms (Views: 166.6ms | ActiveRecord: 1.0ms)
+
+
+Started DELETE "/produtos/16" for ::1 at 2016-12-18 19:36:17 -0200
+Processing by ProdutosController#destroy as HTML
+  Parameters: {"authenticity_token"=>"NAeEiD+YhODcB8hOlNwcNP3HHdVC/PVonsY9UgaOdZUaIVf6rKe/eSmMOIpDovNTIJI8zXaKJAOjYrfP969mhg==", "id"=>"16"}
+  [1m[35mProduto Load (1.0ms)[0m  SELECT  "produtos".* FROM "produtos" WHERE "produtos"."id" = ? LIMIT 1  [["id", 16]]
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 1.0ms)
+
+NoMethodError (undefined method `destroy' for nil:NilClass):
+  app/controllers/produtos_controller.rb:38:in `destroy'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (579.4ms)
+
+
+Started GET "/produtos/3/edit" for ::1 at 2016-12-18 19:42:34 -0200
+Processing by ProdutosController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mProduto Load (0.0ms)[0m  [1mSELECT  "produtos".* FROM "produtos" WHERE "produtos"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered produtos/edit.html.erb within layouts/application (11.0ms)
+Completed 500 Internal Server Error in 69ms (ActiveRecord: 1.0ms)
+
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    1: <% @produto.errors.full_messages.each do |message| %>
+    2: 	<div class="alert alert-danger" role="alert"><%=message%></div>
+    3: <% end %>	
+    4: 
+  app/views/produtos/edit.html.erb:1:in `_app_views_produtos_edit_html_erb___318555143_78535824'
+  app/controllers/produtos_controller.rb:51:in `renderiza'
+  app/controllers/produtos_controller.rb:34:in `edit'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (438.3ms)
+
+
+Started GET "/produtos/new" for ::1 at 2016-12-18 19:46:55 -0200
+Processing by ProdutosController#new as HTML
+  [1m[35mDepartamento Load (0.0ms)[0m  SELECT "departamentos".* FROM "departamentos"
+  Rendered produtos/_form.html.erb (9.0ms)
+  Rendered produtos/new.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 243ms (Views: 241.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/produtos/3/edit" for ::1 at 2016-12-18 19:46:58 -0200
+Processing by ProdutosController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mProduto Load (0.0ms)[0m  [1mSELECT  "produtos".* FROM "produtos" WHERE "produtos"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered produtos/_form.html.erb (10.0ms)
+  Rendered produtos/edit.html.erb within layouts/application (21.0ms)
+Completed 500 Internal Server Error in 66ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    1: <% @produto.errors.full_messages.each do |message| %>
+    2: 	<div class="alert alert-danger" role="alert"><%=message%></div>
+    3: <% end %>	
+    4: 
+  app/views/produtos/_form.html.erb:1:in `_app_views_produtos__form_html_erb___1053198866_46282704'
+  app/views/produtos/edit.html.erb:1:in `_app_views_produtos_edit_html_erb___318555143_78837948'
+  app/controllers/produtos_controller.rb:51:in `renderiza'
+  app/controllers/produtos_controller.rb:34:in `edit'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (477.3ms)
+
+
+Started GET "/" for ::1 at 2016-12-18 19:49:36 -0200
+Processing by ProdutosController#index as HTML
+  [1m[35mProduto Load (0.0ms)[0m  SELECT "produtos".* FROM "produtos"  ORDER BY "produtos"."nome" ASC
+  Rendered produtos/_produto.html.erb (3.0ms)
+  [1m[36mProduto Load (0.0ms)[0m  [1mSELECT  "produtos".* FROM "produtos"  ORDER BY "produtos"."preco" ASC LIMIT 2[0m
+  Rendered produtos/_produto.html.erb (1.0ms)
+  Rendered produtos/index.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 184ms (Views: 179.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-12-18 19:49:37 -0200
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-12-18 19:49:37 -0200
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-12-18 19:49:37 -0200
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-12-18 19:49:37 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-12-18 19:49:37 -0200
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-12-18 19:49:37 -0200
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-12-18 19:49:37 -0200
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-12-18 19:49:37 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-12-18 19:49:37 -0200
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-12-18 19:49:37 -0200
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-12-18 19:49:37 -0200
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-12-18 19:49:37 -0200
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-12-18 19:49:37 -0200
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-12-18 19:49:37 -0200
+
+
+Started GET "/assets/bootstrap.self-5afe7e91ef3675e2be97b8d060a7f3755d6dbc615b76df476df55143da70679f.js?body=1" for ::1 at 2016-12-18 19:49:37 -0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-12-18 19:49:37 -0200
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-12-18 19:49:37 -0200
+
+
+Started GET "/assets/departamentos.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-12-18 19:49:37 -0200
+
+
+Started GET "/assets/produtos.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-12-18 19:49:37 -0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-12-18 19:49:37 -0200
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for ::1 at 2016-12-18 19:49:37 -0200
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for ::1 at 2016-12-18 19:49:37 -0200
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for ::1 at 2016-12-18 19:49:37 -0200
+
+
+Started GET "/assets/departamentos.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for ::1 at 2016-12-18 19:49:38 -0200
+
+
+Started GET "/assets/produtos.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for ::1 at 2016-12-18 19:49:38 -0200
+
+
+Started GET "/assets/scaffold.self-83b741db49389dc7cfdf85bf7537a0219cce48e085c4116afc83d55c9af47c78.css?body=1" for ::1 at 2016-12-18 19:49:38 -0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-12-18 19:49:38 -0200
+
+
+Started GET "/produtos/1/edit" for ::1 at 2016-12-18 19:49:40 -0200
+Processing by ProdutosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProduto Load (1.0ms)[0m  SELECT  "produtos".* FROM "produtos" WHERE "produtos"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered produtos/_form.html.erb (12.0ms)
+  Rendered produtos/edit.html.erb within layouts/application (22.0ms)
+Completed 500 Internal Server Error in 72ms (ActiveRecord: 1.0ms)
+
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    1: <% @produto.errors.full_messages.each do |message| %>
+    2: 	<div class="alert alert-danger" role="alert"><%=message%></div>
+    3: <% end %>	
+    4: 
+  app/views/produtos/_form.html.erb:1:in `_app_views_produtos__form_html_erb___1053198866_46282704'
+  app/views/produtos/edit.html.erb:1:in `_app_views_produtos_edit_html_erb___318555143_78837948'
+  app/controllers/produtos_controller.rb:51:in `renderiza'
+  app/controllers/produtos_controller.rb:34:in `edit'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (402.3ms)
+
+
+Started GET "/produtos/1/edit" for ::1 at 2016-12-18 19:54:05 -0200
+Processing by ProdutosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProduto Load (0.0ms)[0m  [1mSELECT  "produtos".* FROM "produtos" WHERE "produtos"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mDepartamento Load (0.0ms)[0m  SELECT "departamentos".* FROM "departamentos"
+  Rendered produtos/_form.html.erb (8.0ms)
+  Rendered produtos/edit.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 194ms (Views: 178.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for ::1 at 2016-12-18 19:54:06 -0200
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for ::1 at 2016-12-18 19:54:06 -0200
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for ::1 at 2016-12-18 19:54:06 -0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-12-18 19:54:06 -0200
+
+
+Started GET "/assets/departamentos.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for ::1 at 2016-12-18 19:54:06 -0200
+
+
+Started GET "/assets/produtos.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for ::1 at 2016-12-18 19:54:06 -0200
+
+
+Started GET "/assets/scaffold.self-83b741db49389dc7cfdf85bf7537a0219cce48e085c4116afc83d55c9af47c78.css?body=1" for ::1 at 2016-12-18 19:54:06 -0200
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-12-18 19:54:06 -0200
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-12-18 19:54:06 -0200
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-12-18 19:54:06 -0200
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-12-18 19:54:06 -0200
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-12-18 19:54:06 -0200
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-12-18 19:54:06 -0200
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-12-18 19:54:06 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-12-18 19:54:06 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-12-18 19:54:06 -0200
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-12-18 19:54:06 -0200
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-12-18 19:54:06 -0200
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-12-18 19:54:06 -0200
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-12-18 19:54:06 -0200
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-12-18 19:54:06 -0200
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-12-18 19:54:06 -0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-12-18 19:54:06 -0200
+
+
+Started GET "/assets/bootstrap.self-5afe7e91ef3675e2be97b8d060a7f3755d6dbc615b76df476df55143da70679f.js?body=1" for ::1 at 2016-12-18 19:54:07 -0200
+
+
+Started GET "/assets/departamentos.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-12-18 19:54:07 -0200
+
+
+Started GET "/assets/produtos.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-12-18 19:54:07 -0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-12-18 19:54:07 -0200
+
+
+Started GET "/" for ::1 at 2016-12-18 19:54:10 -0200
+Processing by ProdutosController#index as HTML
+  [1m[36mProduto Load (1.0ms)[0m  [1mSELECT "produtos".* FROM "produtos"  ORDER BY "produtos"."nome" ASC[0m
+  Rendered produtos/_produto.html.erb (3.0ms)
+  [1m[35mProduto Load (0.0ms)[0m  SELECT  "produtos".* FROM "produtos"  ORDER BY "produtos"."preco" ASC LIMIT 2
+  Rendered produtos/_produto.html.erb (1.0ms)
+  Rendered produtos/index.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 173ms (Views: 171.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/produtos/3/edit" for ::1 at 2016-12-18 19:54:12 -0200
+Processing by ProdutosController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mProduto Load (1.0ms)[0m  [1mSELECT  "produtos".* FROM "produtos" WHERE "produtos"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mDepartamento Load (0.0ms)[0m  SELECT "departamentos".* FROM "departamentos"
+  Rendered produtos/_form.html.erb (4.0ms)
+  Rendered produtos/edit.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 178ms (Views: 175.2ms | ActiveRecord: 1.0ms)
+
+
+Started PATCH "/produtos/3" for ::1 at 2016-12-18 19:54:19 -0200
+Processing by ProdutosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"klv9LeDqV8cjVg0CqHyJlbgnSofcGtTb+yYUQQN8YoO8fS5fc9VsXtbd/cZ/AmbyZXJrn+hsBbDGgp7c8l1xkA==", "produto"=>{"nome"=>"Bermuda do Big Bang leagal", "descricao"=>"Bermuda para combinar com a camiseta. Compre tambem a camiseta", "departamento_id"=>"1", "quantidade"=>"13", "preco"=>"120.3"}, "commit"=>"Atualizar o produto", "id"=>"3"}
+  [1m[36mProduto Load (0.0ms)[0m  [1mSELECT  "produtos".* FROM "produtos" WHERE "produtos"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mUPDATE "produtos" SET "nome" = ?, "departamento_id" = ?, "updated_at" = ? WHERE "produtos"."id" = ?[0m  [["nome", "Bermuda do Big Bang leagal"], ["departamento_id", 1], ["updated_at", "2016-12-18 21:54:19.945597"], ["id", 3]]
+  [1m[35m (7.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 21ms (ActiveRecord: 9.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-18 19:54:19 -0200
+Processing by ProdutosController#index as HTML
+  [1m[36mProduto Load (0.0ms)[0m  [1mSELECT "produtos".* FROM "produtos"  ORDER BY "produtos"."nome" ASC[0m
+  Rendered produtos/_produto.html.erb (4.0ms)
+  [1m[35mProduto Load (1.0ms)[0m  SELECT  "produtos".* FROM "produtos"  ORDER BY "produtos"."preco" ASC LIMIT 2
+  Rendered produtos/_produto.html.erb (1.0ms)
+  Rendered produtos/index.html.erb within layouts/application (28.0ms)
+Completed 200 OK in 191ms (Views: 190.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/produtos/3/edit" for ::1 at 2016-12-18 19:54:22 -0200
+Processing by ProdutosController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mProduto Load (1.0ms)[0m  [1mSELECT  "produtos".* FROM "produtos" WHERE "produtos"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mDepartamento Load (0.0ms)[0m  SELECT "departamentos".* FROM "departamentos"
+  Rendered produtos/_form.html.erb (4.0ms)
+  Rendered produtos/edit.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 206ms (Views: 203.0ms | ActiveRecord: 1.0ms)
+
+
+Started PATCH "/produtos/3" for ::1 at 2016-12-18 19:54:25 -0200
+Processing by ProdutosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bv9VJM0JleE2knCamAGbxSGDJPGCWwSZbGO9HUEeKL5A2YZWXjaueMMZgF5Pf3Si/NYF6bYt1fJRxzeAsD87rQ==", "produto"=>{"nome"=>"Bermuda do Big Bang", "descricao"=>"Bermuda para combinar com a camiseta. Compre tambem a camiseta", "departamento_id"=>"1", "quantidade"=>"13", "preco"=>"120.3"}, "commit"=>"Atualizar o produto", "id"=>"3"}
+  [1m[36mProduto Load (1.0ms)[0m  [1mSELECT  "produtos".* FROM "produtos" WHERE "produtos"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mUPDATE "produtos" SET "nome" = ?, "updated_at" = ? WHERE "produtos"."id" = ?[0m  [["nome", "Bermuda do Big Bang"], ["updated_at", "2016-12-18 21:54:25.645199"], ["id", 3]]
+  [1m[35m (7.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 19ms (ActiveRecord: 9.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-18 19:54:25 -0200
+Processing by ProdutosController#index as HTML
+  [1m[36mProduto Load (0.0ms)[0m  [1mSELECT "produtos".* FROM "produtos"  ORDER BY "produtos"."nome" ASC[0m
+  Rendered produtos/_produto.html.erb (5.0ms)
+  [1m[35mProduto Load (1.0ms)[0m  SELECT  "produtos".* FROM "produtos"  ORDER BY "produtos"."preco" ASC LIMIT 2
+  Rendered produtos/_produto.html.erb (1.0ms)
+  Rendered produtos/index.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 184ms (Views: 181.7ms | ActiveRecord: 1.0ms)
+
+
+Started DELETE "/produtos/13" for ::1 at 2016-12-18 19:54:32 -0200
+Processing by ProdutosController#destroy as HTML
+  Parameters: {"authenticity_token"=>"rQZOOw8D51pBQz/fqn1oJbt82og8DNbKeM9QooQw8fKDIJ1JnDzcw7TIzxt9A4dCZin7kAh6B6FFa9o/dRHi4Q==", "id"=>"13"}
+  [1m[36mProduto Load (0.0ms)[0m  [1mSELECT  "produtos".* FROM "produtos" WHERE "produtos"."id" = ? LIMIT 1[0m  [["id", 13]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mDELETE FROM "produtos" WHERE "produtos"."id" = ?[0m  [["id", 13]]
+  [1m[35m (13.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 23ms (ActiveRecord: 14.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-18 19:54:32 -0200
+Processing by ProdutosController#index as HTML
+  [1m[36mProduto Load (0.0ms)[0m  [1mSELECT "produtos".* FROM "produtos"  ORDER BY "produtos"."nome" ASC[0m
+  Rendered produtos/_produto.html.erb (3.0ms)
+  [1m[35mProduto Load (0.0ms)[0m  SELECT  "produtos".* FROM "produtos"  ORDER BY "produtos"."preco" ASC LIMIT 2
+  Rendered produtos/_produto.html.erb (1.0ms)
+  Rendered produtos/index.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 171ms (Views: 169.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/produtos/new" for ::1 at 2016-12-18 19:54:40 -0200
+Processing by ProdutosController#new as HTML
+  [1m[36mDepartamento Load (0.0ms)[0m  [1mSELECT "departamentos".* FROM "departamentos"[0m
+  Rendered produtos/_form.html.erb (4.0ms)
+  Rendered produtos/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 181ms (Views: 179.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/produtos" for ::1 at 2016-12-18 19:54:48 -0200
+Processing by ProdutosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2W1N+BprIhJzaUjY+Mn1dxfcxRMnprVsgU2bixHz5v33S56KiVQZi4biuBwvtxoQyonkCxPQZAe86REW4NL17g==", "produto"=>{"nome"=>"testes", "descricao"=>"teste", "departamento_id"=>"3", "quantidade"=>"22", "preco"=>"32"}, "commit"=>"Criar o produto"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "produtos" ("nome", "preco", "descricao", "quantidade", "departamento_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["nome", "testes"], ["preco", 32.0], ["descricao", "teste"], ["quantidade", 22], ["departamento_id", 3], ["created_at", "2016-12-18 21:54:48.147617"], ["updated_at", "2016-12-18 21:54:48.147617"]]
+  [1m[35m (8.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 17ms (ActiveRecord: 9.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-18 19:54:48 -0200
+Processing by ProdutosController#index as HTML
+  [1m[36mProduto Load (1.0ms)[0m  [1mSELECT "produtos".* FROM "produtos"  ORDER BY "produtos"."nome" ASC[0m
+  Rendered produtos/_produto.html.erb (4.0ms)
+  [1m[35mProduto Load (0.0ms)[0m  SELECT  "produtos".* FROM "produtos"  ORDER BY "produtos"."preco" ASC LIMIT 2
+  Rendered produtos/_produto.html.erb (1.0ms)
+  Rendered produtos/index.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 181ms (Views: 178.6ms | ActiveRecord: 1.0ms)
+
+
+Started DELETE "/produtos/17" for ::1 at 2016-12-18 19:54:51 -0200
+Processing by ProdutosController#destroy as HTML
+  Parameters: {"authenticity_token"=>"PWOFRBkgqSkWPtpPFk47JOjVZtMcWKAPI0M+lrvrvtMTRVY2ih+SsOO1KovBMNRDNYBHyygucWQe57QLSsqtwA==", "id"=>"17"}
+  [1m[36mProduto Load (0.0ms)[0m  [1mSELECT  "produtos".* FROM "produtos" WHERE "produtos"."id" = ? LIMIT 1[0m  [["id", 17]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mDELETE FROM "produtos" WHERE "produtos"."id" = ?[0m  [["id", 17]]
+  [1m[35m (10.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 20ms (ActiveRecord: 11.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-18 19:54:51 -0200
+Processing by ProdutosController#index as HTML
+  [1m[36mProduto Load (0.0ms)[0m  [1mSELECT "produtos".* FROM "produtos"  ORDER BY "produtos"."nome" ASC[0m
+  Rendered produtos/_produto.html.erb (4.0ms)
+  [1m[35mProduto Load (0.0ms)[0m  SELECT  "produtos".* FROM "produtos"  ORDER BY "produtos"."preco" ASC LIMIT 2
+  Rendered produtos/_produto.html.erb (0.0ms)
+  Rendered produtos/index.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 210ms (Views: 209.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/produtos/busca?utf8=%E2%9C%93&nome=bermuda&authenticity_token=E967yA0jjqeSPpKBru7iIgkU4sHCw9%2FlFr5OtQjh5Ik9%2BGi6nhy1Pme1YkV5kA1F1EHD2fa1Do4rGsQo%2BcD3mg%3D%3D" for ::1 at 2016-12-18 19:54:56 -0200
+Processing by ProdutosController#busca as HTML
+  Parameters: {"utf8"=>"✓", "nome"=>"bermuda", "authenticity_token"=>"E967yA0jjqeSPpKBru7iIgkU4sHCw9/lFr5OtQjh5Ik9+Gi6nhy1Pme1YkV5kA1F1EHD2fa1Do4rGsQo+cD3mg=="}
+  [1m[36mProduto Load (1.0ms)[0m  [1mSELECT "produtos".* FROM "produtos" WHERE (nome like '%bermuda%')[0m
+  Rendered produtos/_produto.html.erb (1.0ms)
+  Rendered produtos/busca.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 224ms (Views: 221.8ms | ActiveRecord: 1.0ms)
