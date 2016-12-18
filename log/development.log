@@ -6956,3 +6956,319 @@ Started GET "/assets/produtos.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138
 
 
 Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-12-14 22:34:36 -0200
+
+
+Started GET "/" for ::1 at 2016-12-18 18:14:44 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProdutosController#index as HTML
+  [1m[35mProduto Load (1.0ms)[0m  SELECT "produtos".* FROM "produtos"  ORDER BY "produtos"."nome" ASC
+  Rendered produtos/_produto.html.erb (3.0ms)
+  [1m[36mProduto Load (1.0ms)[0m  [1mSELECT  "produtos".* FROM "produtos"  ORDER BY "produtos"."preco" ASC LIMIT 2[0m
+  Rendered produtos/_produto.html.erb (1.0ms)
+  Rendered produtos/index.html.erb within layouts/application (49.0ms)
+Completed 200 OK in 1079ms (Views: 1054.4ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/departamentos" for ::1 at 2016-12-18 18:19:48 -0200
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.5.1) lib/active_record/migration.rb:392:in `check_pending!'
+  activerecord (4.2.5.1) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5.1) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5.1) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (438.3ms)
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateDepartamentos (20161218201930)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (1.0ms)[0m  [1mCREATE TABLE "departamentos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nome" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20161218201930"]]
+  [1m[36m (8.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/departamentos" for ::1 at 2016-12-18 18:20:35 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by DepartamentosController#index as HTML
+  [1m[35mDepartamento Load (0.0ms)[0m  SELECT "departamentos".* FROM "departamentos"
+  Rendered departamentos/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 755ms (Views: 751.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/departamentos.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for ::1 at 2016-12-18 18:20:36 -0200
+
+
+Started GET "/assets/scaffold.self-83b741db49389dc7cfdf85bf7537a0219cce48e085c4116afc83d55c9af47c78.css?body=1" for ::1 at 2016-12-18 18:20:36 -0200
+
+
+Started GET "/assets/departamentos.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-12-18 18:20:36 -0200
+
+
+Started GET "/departamentos/new" for ::1 at 2016-12-18 18:20:49 -0200
+Processing by DepartamentosController#new as HTML
+  Rendered departamentos/_form.html.erb (1289.0ms)
+  Rendered departamentos/new.html.erb within layouts/application (1299.0ms)
+Completed 200 OK in 1493ms (Views: 1488.1ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/departamentos" for ::1 at 2016-12-18 18:20:56 -0200
+Processing by DepartamentosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XXAB7uJGlWZyHVtGYJbNwTSAyDiFIgWcHrdDsPbZAhVzVtKccXmu/4eWq4K36CKm6dXpILFU1PcjE8ktB/gRBg==", "departamento"=>{"nome"=>"Séries de tv"}, "commit"=>"Criar Departamento"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "departamentos" ("nome", "created_at", "updated_at") VALUES (?, ?, ?)  [["nome", "Séries de tv"], ["created_at", "2016-12-18 20:20:56.637159"], ["updated_at", "2016-12-18 20:20:56.637159"]]
+  [1m[36m (9.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/departamentos/1
+Completed 302 Found in 21ms (ActiveRecord: 10.0ms)
+
+
+Started GET "/departamentos/1" for ::1 at 2016-12-18 18:20:56 -0200
+Processing by DepartamentosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mDepartamento Load (0.0ms)[0m  SELECT  "departamentos".* FROM "departamentos" WHERE "departamentos"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered departamentos/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 181ms (Views: 143.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/departamentos" for ::1 at 2016-12-18 18:21:04 -0200
+Processing by DepartamentosController#index as HTML
+  [1m[36mDepartamento Load (0.0ms)[0m  [1mSELECT "departamentos".* FROM "departamentos"[0m
+  Rendered departamentos/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 156ms (Views: 155.1ms | ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddDepartamentoIdToProduto (20161218202932)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (1.0ms)[0m  [1mALTER TABLE "produtos" ADD "departamento_id" integer[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20161218202932"]]
+  [1m[36m (15.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mProduto Load (0.0ms)[0m  [1mSELECT  "produtos".* FROM "produtos"  ORDER BY "produtos"."id" ASC LIMIT 1[0m
+  [1m[35mDepartamento Load (0.0ms)[0m  SELECT  "departamentos".* FROM "departamentos"  ORDER BY "departamentos"."id" ASC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  UPDATE "produtos" SET "departamento_id" = ?, "updated_at" = ? WHERE "produtos"."id" = ?  [["departamento_id", 1], ["updated_at", "2016-12-18 20:33:42.335124"], ["id", 1]]
+  [1m[36m (10.0ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/departamentos/new" for ::1 at 2016-12-18 18:46:38 -0200
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by DepartamentosController#new as HTML
+  Rendered departamentos/_form.html.erb (1.0ms)
+  Rendered departamentos/new.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 180ms (Views: 172.8ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/departamentos" for ::1 at 2016-12-18 18:46:45 -0200
+Processing by DepartamentosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hvlyUuJQur5MfiY7pOh64IGeq+msTudliNGQAjX7dYCo36EgcW+BJ7n11v9zlpWHXMuK8Zg4Ng61dRqfxNpmkw==", "departamento"=>{"nome"=>"Roupas formais"}, "commit"=>"Criar Departamento"}
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "departamentos" ("nome", "created_at", "updated_at") VALUES (?, ?, ?)  [["nome", "Roupas formais"], ["created_at", "2016-12-18 20:46:45.075091"], ["updated_at", "2016-12-18 20:46:45.075091"]]
+  [1m[36m (7.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/departamentos/2
+Completed 302 Found in 17ms (ActiveRecord: 9.0ms)
+
+
+Started GET "/departamentos/2" for ::1 at 2016-12-18 18:46:45 -0200
+Processing by DepartamentosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mDepartamento Load (1.0ms)[0m  SELECT  "departamentos".* FROM "departamentos" WHERE "departamentos"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered departamentos/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 195ms (Views: 192.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/departamentos" for ::1 at 2016-12-18 18:46:47 -0200
+Processing by DepartamentosController#index as HTML
+  [1m[36mDepartamento Load (0.0ms)[0m  [1mSELECT "departamentos".* FROM "departamentos"[0m
+  Rendered departamentos/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 183ms (Views: 182.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/departamentos/new" for ::1 at 2016-12-18 18:46:48 -0200
+Processing by DepartamentosController#new as HTML
+  Rendered departamentos/_form.html.erb (2.0ms)
+  Rendered departamentos/new.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 173ms (Views: 172.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/departamentos" for ::1 at 2016-12-18 18:46:54 -0200
+Processing by DepartamentosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TWjKPXqwaFqs5+7U4Q7WM1KAJK9Yn5B00UM0gCpAvrFjThlP6Y9Tw1lsHhA2cDlUj9UFt2zpQR/s574d22Gtog==", "departamento"=>{"nome"=>"clima junino"}, "commit"=>"Criar Departamento"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "departamentos" ("nome", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["nome", "clima junino"], ["created_at", "2016-12-18 20:46:54.190478"], ["updated_at", "2016-12-18 20:46:54.190478"]]
+  [1m[35m (6.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/departamentos/3
+Completed 302 Found in 16ms (ActiveRecord: 7.0ms)
+
+
+Started GET "/departamentos/3" for ::1 at 2016-12-18 18:46:54 -0200
+Processing by DepartamentosController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mDepartamento Load (0.0ms)[0m  [1mSELECT  "departamentos".* FROM "departamentos" WHERE "departamentos"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered departamentos/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 168ms (Views: 164.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/departamentos" for ::1 at 2016-12-18 18:46:55 -0200
+Processing by DepartamentosController#index as HTML
+  [1m[35mDepartamento Load (0.0ms)[0m  SELECT "departamentos".* FROM "departamentos"
+  Rendered departamentos/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 182ms (Views: 181.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/produtos/new" for ::1 at 2016-12-18 18:51:23 -0200
+Processing by ProdutosController#new as HTML
+  [1m[36mDepartamento Load (1.0ms)[0m  [1mSELECT "departamentos".* FROM "departamentos"[0m
+  Rendered produtos/new.html.erb within layouts/application (29.0ms)
+Completed 200 OK in 181ms (Views: 167.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/produtos/new" for ::1 at 2016-12-18 18:53:13 -0200
+Processing by ProdutosController#new as HTML
+  [1m[35mDepartamento Load (0.0ms)[0m  SELECT "departamentos".* FROM "departamentos"
+  Rendered produtos/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 163ms (Views: 162.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/produtos/new" for ::1 at 2016-12-18 18:54:02 -0200
+Processing by ProdutosController#new as HTML
+  [1m[36mDepartamento Load (1.0ms)[0m  [1mSELECT "departamentos".* FROM "departamentos"[0m
+  Rendered produtos/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 172ms (Views: 169.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for ::1 at 2016-12-18 18:54:02 -0200
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for ::1 at 2016-12-18 18:54:02 -0200
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for ::1 at 2016-12-18 18:54:02 -0200
+
+
+Started GET "/assets/departamentos.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for ::1 at 2016-12-18 18:54:02 -0200
+
+
+Started GET "/assets/produtos.self-b60acab5af8d245ed2b3012f77d11d8d207d8eada27756badaf4ef05770d60f6.css?body=1" for ::1 at 2016-12-18 18:54:02 -0200
+
+
+Started GET "/assets/scaffold.self-83b741db49389dc7cfdf85bf7537a0219cce48e085c4116afc83d55c9af47c78.css?body=1" for ::1 at 2016-12-18 18:54:02 -0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-12-18 18:54:02 -0200
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-12-18 18:54:02 -0200
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-12-18 18:54:02 -0200
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-12-18 18:54:02 -0200
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-12-18 18:54:02 -0200
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-12-18 18:54:02 -0200
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-12-18 18:54:02 -0200
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-12-18 18:54:03 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-12-18 18:54:03 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-12-18 18:54:03 -0200
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-12-18 18:54:03 -0200
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-12-18 18:54:03 -0200
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-12-18 18:54:03 -0200
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-12-18 18:54:03 -0200
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-12-18 18:54:03 -0200
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-12-18 18:54:03 -0200
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2016-12-18 18:54:03 -0200
+
+
+Started GET "/assets/bootstrap.self-5afe7e91ef3675e2be97b8d060a7f3755d6dbc615b76df476df55143da70679f.js?body=1" for ::1 at 2016-12-18 18:54:03 -0200
+
+
+Started GET "/assets/departamentos.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-12-18 18:54:03 -0200
+
+
+Started GET "/assets/produtos.self-19a187bec6cdb96d6de80a61c16c857c613536adf9138476bd367db38d282635.js?body=1" for ::1 at 2016-12-18 18:54:03 -0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-12-18 18:54:03 -0200
+
+
+Started POST "/produtos" for ::1 at 2016-12-18 18:57:37 -0200
+Processing by ProdutosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/rPdQm43BclbpUEdirvHJwpjpd/e1UWvRIpSy4bOm9DQlQ4w/Qg+UK4usdldxShA1zaEx+qjlMR5LthWd++Iww==", "produto"=>{"nome"=>"casaquinho formal preto", "descricao"=>"casaco preto meio formal", "departamento_id"=>"2", "quantidade"=>"3", "preco"=>"30"}, "commit"=>"Criar o produto"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "produtos" ("nome", "preco", "descricao", "quantidade", "departamento_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["nome", "casaquinho formal preto"], ["preco", 30.0], ["descricao", "casaco preto meio formal"], ["quantidade", 3], ["departamento_id", 2], ["created_at", "2016-12-18 20:57:37.450137"], ["updated_at", "2016-12-18 20:57:37.450137"]]
+  [1m[35m (6.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 28ms (ActiveRecord: 6.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-18 18:57:37 -0200
+Processing by ProdutosController#index as HTML
+  [1m[36mProduto Load (1.0ms)[0m  [1mSELECT "produtos".* FROM "produtos"  ORDER BY "produtos"."nome" ASC[0m
+  Rendered produtos/_produto.html.erb (4.0ms)
+  [1m[35mProduto Load (1.0ms)[0m  SELECT  "produtos".* FROM "produtos"  ORDER BY "produtos"."preco" ASC LIMIT 2
+  Rendered produtos/_produto.html.erb (1.0ms)
+  Rendered produtos/index.html.erb within layouts/application (30.0ms)
+Completed 200 OK in 260ms (Views: 258.2ms | ActiveRecord: 2.0ms)
